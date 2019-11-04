@@ -3,27 +3,41 @@
 <html lang="en">
 <head>
 	<meta charset=utf-8>
-	<title>Info about movies</title>
+	<title>Info about Rise of the Planet of the Apes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 </head>
 <body>
 	<div itemscope itemtype="http://schema.org/Movie">
 		<h1 itemprop="name">Rise of the Planet of the Apes</h1>
-		<p itemprop="dateCreated">2019-11-04</p>
 		<img itemprop="image" src="https://upload.wikimedia.org/wikipedia/en/8/81/Rise_of_the_Planet_of_the_Apes_Poster.jpg" alt="Rise of the Planet of the Apes">
-		<p itemprop="genre">Genre : Science Fiction</p>
-		<p itemprop="contentRating">Motion Picture Rating : MPAAA</a>
-		<p itemprop="keywords">Tags : Evolution Ends. Revolution Begins</p>
-		<div itemprop="director" itemscope itemtype="http://schema.org/Person">
-			<p itemprop="name">Director : Rupert Wyatt</p> 
-		</div>
-		<div itemprop="productionCompany" itemscope itemtype="http://schema.org/Organization">
-			<p itemprop="name">Procucer : Chernin Entertainment, Twentieth Century Fox Film Corporation.</p>
-		</div>
+		<h4 itemprop="dateCreated">2011-08-05</h4>
 		<div itemprop="duration" itemscope itemtype="http://schema.org/Duration">
 			<p>Duration of the Movie is 105 min.</p>
 		</div>
+		<div>
+			<h3>Genre:</h3>
+			<p itemprop="genre">Science Fiction</p>
+		</div>
+		<div>
+			<h3>Motion Picture Rating: </h3>
+			<p itemprop="contentRating">MPAAA</a>
+		</div>
+		<div>
+			<h3>Tags:</h3>
+			<p itemprop="keywords">Evolution Ends. Revolution Begins</p>
+		</div>
+		<div itemprop="director" itemscope itemtype="http://schema.org/Person">
+			<h3>Director:</h3>
+			<p itemprop="name">Rupert Wyatt</p> 
+		</div>
+		<div itemprop="productionCompany" itemscope itemtype="http://schema.org/Organization">
+			<h3>Procucer: </h3>
+			<p itemprop="name">Chernin Entertainment, Twentieth Century Fox Film Corporation.</p>
+		</div>
 		<div itemprop="actors" itemscope itemtype="http://schema.org/Person">
-			<p>Actors: </p>
+			<h3>Actors: </h3>
 			<ul>
 				<li itemprop="name">James Franco as Will Rodman</li>
 				<li itemprop="name">Freida Pinto as Caroline Aranha</li>
@@ -31,6 +45,48 @@
 				<li itemprop="name">Chelah Horsdal as Irena</li> 
 			</ul>
 		</div>
+		<div id="description">
+			<h5>Description: </h5>
+			<p itemprop="description">
+				Rise of the Planet of the Apes is a 2011 American science fiction film directed by Rupert Wyatt and starring James Franco, Freida Pinto, John Lithgow, Brian Cox, Tom Felton, David Oyelowo, and Andy Serkis. Written by Rick Jaffa and Amanda Silver, it is 20th Century Fox's reboot of the Planet of the Apes series, intended to act as an origin story for a new series of films.[6] Its premise is similar to the fourth film in the original series, Conquest of the Planet of the Apes (1972), but it is not a direct remake of that film. In the film, a substance designed to help the brain repair itself gives advanced intelligence to a chimpanzee named Caesar, who leads an ape uprising.
+			</p>
+		</div>
 	</div>
 </body>
 </html>
+
+<style>
+body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 1em;
+  color: black;
+  margin: 2%;
+}
+img {
+	margin-left: 5%;
+}
+h4 {
+	margin-left: 11%;
+}
+h3 {
+	font-size: 1em;
+	color: black;
+	display: inline;
+}
+p {
+	display: inline;
+}
+div {
+	margin-bottom: 5px;
+}
+#description {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50%;
+}
+ul {
+	list-style-type: none;
+	margin-top: 0;
+	padding-left: 10px;
+}
+</style>
